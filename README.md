@@ -7,88 +7,115 @@
 *2.解决部分机型裁剪闪退问题
 
 *3.解决图片过大oom闪退问题
-4.动态获取系统权限，避免闪退
-5.支持相片or视频的单选和多选
-6.支持裁剪比例设置，如常用的 1:1、3：4、3:2、16:9 默认为图片大小
-7.支持视频预览
-8.支持gif图片
-9.支持.webp格式图片
-10.支持一些常用场景设置：如:是否裁剪、是否预览图片、是否显示相机等
-11.新增自定义主题设置
-12.新增图片勾选样式设置
-13.新增图片裁剪宽高设置
-14.新增图片压缩处理
-15.新增录视频最大时间设置
-16.新增视频清晰度设置
-17.新增QQ选择风格，带数字效果
-18.新增自定义 文字颜色 背景色让风格和项目更搭配
-19.新增多图裁剪功能
-20.新增LuBan多图压缩
-21.新增单独拍照功能
-22.新增压缩大小设置
-23.新增Luban压缩档次设置
-24.新增圆形头像裁剪
-25.新增音频功能查询
+
+*4.动态获取系统权限，避免闪退
+
+*5.支持相片or视频的单选和多选
+
+*6.支持裁剪比例设置，如常用的 1:1、3：4、3:2、16:9 默认为图片大小
+
+*7.支持视频预览
+
+*8.支持gif图片
+
+*9.支持.webp格式图片
+
+*10.支持一些常用场景设置：如:是否裁剪、是否预览图片、是否显示相机等
+
+*11.新增自定义主题设置
+
+*12.新增图片勾选样式设置
+
+*13.新增图片裁剪宽高设置
+
+*14.新增图片压缩处理
+
+*15.新增录视频最大时间设置
+
+*16.新增视频清晰度设置
+
+*17.新增QQ选择风格，带数字效果
+
+*18.新增自定义 文字颜色 背景色让风格和项目更搭配
+
+*19.新增多图裁剪功能
+
+*20.新增LuBan多图压缩
+
+*21.新增单独拍照功能
+
+*22.新增压缩大小设置
+
+*23.新增Luban压缩档次设置
+
+*24.新增圆形头像裁剪
+
+*25.新增音频功能查询
 
 重要的事情说三遍记得添加权限
 ==
 
-  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-  <uses-permission android:name="android.permission.CAMERA" />
+  		<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+  		<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+  		<uses-permission android:name="android.permission.CAMERA" />
   
   集成方式
   ==
   
   方式一 compile引入
 --
-dependencies {
-    implementation 'com.github.LuckSiege.PictureSelector:picture_library:v2.2.3'
-}
+
+		dependencies {
+   		 implementation 'com.github.LuckSiege.PictureSelector:picture_library:v2.2.3'
+		}
 
 项目根目录build.gradle加入
 --
-allprojects {
-   repositories {
-      jcenter()
-      maven { url 'https://jitpack.io' }
-   }
-}
+
+		allprojects {
+  		 repositories {
+   		   jcenter()
+     		 maven { url 'https://jitpack.io' }
+ 		  }
+		}
 方式二 maven引入
 --
+
 step 1.
 
-<repositories>
-       <repository>
-       <id>jitpack.io</id>
-	<url>https://jitpack.io</url>
-       </repository>
- </repositories>
+		<repositories>
+     		  <repository>
+      		 <id>jitpack.io</id>
+			<url>https://jitpack.io</url>
+      		 </repository>
+ 		</repositories>
+		
 step 2.
 
 
-<dependency>
-      <groupId>com.github.LuckSiege.PictureSelector</groupId>
-      <artifactId>picture_library</artifactId>
-      <version>v2.2.3</version> 
-</dependency>
+		<dependency>
+   		   <groupId>com.github.LuckSiege.PictureSelector</groupId>
+     		 <artifactId>picture_library</artifactId>
+     		 <version>v2.2.3</version> 
+		</dependency>
   
   常见错误
   ==
- 重要：PictureSelector.create()；调用此方法时，在activity中传activity.this，在fragment中请传fragment.this,
- 影响回调到哪个地方的onActivityResult()。
+  
+ 		重要：PictureSelector.create()；调用此方法时，在activity中传activity.this，在fragment中请传fragment.this,
+ 		影响回调到哪个地方的onActivityResult()。
  
- 问题一：
- rxjava冲突：在app build.gradle下添加
- packagingOptions {
-   exclude 'META-INF/rxjava.properties'
- }  
+		 问题一：
+		 rxjava冲突：在app build.gradle下添加
+		 packagingOptions {
+ 		  exclude 'META-INF/rxjava.properties'
+		 }  
  
- 问题二：
- java.lang.NullPointerException: 
- Attempt to invoke virtual method 'android.content.res.XmlResourceParser 
- android.content.pm.ProviderInfo.loadXmlMetaData(android.content.pm.PackageManager, java.lang.String)'
- on a null object reference
+		 问题二：
+		 java.lang.NullPointerException: 
+		 Attempt to invoke virtual method 'android.content.res.XmlResourceParser 
+ 		android.content.pm.ProviderInfo.loadXmlMetaData(android.content.pm.PackageManager, java.lang.String)'
+ 		on a null object reference
  
  * 注意 从v2.1.3版本中，将不需要配制以下内容
  
