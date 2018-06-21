@@ -6,11 +6,7 @@
   ==
   ![效果视频点击下载观看](https://github.com/oyd5201/Micro-blog-we_chat-dynamic-circle-of-friends-release/raw/master/textCirle/image/video1.mp4)
 
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   <video width="320" height="240" controls>
-  <source src="https://github.com/oyd5201/Micro-blog-we_chat-dynamic-circle-of-friends-release/raw/master/textCirle/image/video1.mp4" type="video/mp4">
-  <object data="movie.mp4" width="320" height="240">
-  </object> 
-</video></p> 
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img alt="" src="https://github.com/oyd5201/Micro-blog-we_chat-dynamic-circle-of-friends-release/raw/master/textCirle/image/giff.gif"></p> 
 <p>&nbsp;</p> 
                 
 
