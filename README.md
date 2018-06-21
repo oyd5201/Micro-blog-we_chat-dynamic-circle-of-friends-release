@@ -5,7 +5,6 @@
   ![效果视频](https://github.com/oyd5201/Micro-blog-we_chat-dynamic-circle-of-friends-release/raw/master/textCirle/image/video1.mp4)
   
   ![效果图1](https://github.com/oyd5201/Micro-blog-we_chat-dynamic-circle-of-friends-release/raw/master/textCirle/image/xg1.jpg)
-  
   ![效果图2](https://github.com/oyd5201/Micro-blog-we_chat-dynamic-circle-of-friends-release/raw/master/textCirle/image/xg2.jpg)
   
 
