@@ -4,16 +4,13 @@
 
 演示效果
   ==
-  ![效果视频点击下载观看](https://github.com/oyd5201/Micro-blog-we_chat-dynamic-circle-of-friends-release/raw/master/textCirle/image/video1.mp4)
+
+![效果图1](https://github.com/oyd5201/Micro-blog-we_chat-dynamic-circle-of-friends-release/raw/master/textCirle/image/xg1.jpg)
+![效果图2](https://github.com/oyd5201/Micro-blog-we_chat-dynamic-circle-of-friends-release/raw/master/textCirle/image/xg2.jpg)
+![效果视频点击下载观看](https://github.com/oyd5201/Micro-blog-we_chat-dynamic-circle-of-friends-release/raw/master/textCirle/image/video1.mp4)
 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img alt="" src="https://github.com/oyd5201/Micro-blog-we_chat-dynamic-circle-of-friends-release/raw/master/textCirle/image/giff.gif"></p> 
 <p>&nbsp;</p> 
-                
-
-
-	
-![效果图1](https://github.com/oyd5201/Micro-blog-we_chat-dynamic-circle-of-friends-release/raw/master/textCirle/image/xg1.jpg)
-![效果图2](https://github.com/oyd5201/Micro-blog-we_chat-dynamic-circle-of-friends-release/raw/master/textCirle/image/xg2.jpg)
   
 
 功能特点
