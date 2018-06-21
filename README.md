@@ -1,5 +1,7 @@
 # 仿微博，微信，发送图片，发视频动态
 
+一款针对android平台下的图片选择器，支持从相册或拍照选择图片或视频、音频，支持动态权限获取、裁剪(单图or多图裁剪)、压缩、主题自定义配置等功能、适配android 6.0+系统的开源图片选择框架。
+
 演示效果
   ==
   ![效果视频点击下载观看](https://github.com/oyd5201/Micro-blog-we_chat-dynamic-circle-of-friends-release/raw/master/textCirle/image/video1.mp4)
